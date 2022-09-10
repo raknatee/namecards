@@ -137,8 +137,5 @@
 
 <script setup lang="ts">
 import CardVue from '../../components/Card.vue';
-import waltonLogo from '../../assets/walton/MINI_LOGO.png'
-let link = document.getElementById("favicon")! as HTMLLinkElement
-link.href = waltonLogo
 document.title = "Walton Development"
 </script>
