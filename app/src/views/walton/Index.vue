@@ -139,5 +139,6 @@
 import CardVue from '../../components/Card.vue';
 let link = document.getElementById("favicon")! as HTMLLinkElement
 link.href = "/src/assets/walton/MINI_LOGO.PNG"
+console.log((document.getElementById("favicon")! as HTMLLinkElement) .href!)
 document.title = "Walton Development"
 </script>
