@@ -71,7 +71,7 @@
     .logo {
         height: 100%;
         width: 100%;
-        background-image: url('/src/assets/walton/MINI_LOGO.PNG');
+        background-image: url('/src/assets/walton/MINI_LOGO.png');
         background-size: cover;
         background-position: left;
     }
@@ -115,7 +115,7 @@
         }
 
 
-        background-image: url("/src/assets/walton/FULL_LOGO.PNG");
+        background-image: url("/src/assets/walton/FULL_LOGO.png");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -137,8 +137,8 @@
 
 <script setup lang="ts">
 import CardVue from '../../components/Card.vue';
+import waltonLogo from '../../assets/walton/MINI_LOGO.png'
 let link = document.getElementById("favicon")! as HTMLLinkElement
-link.href = "/src/assets/walton/MINI_LOGO.PNG"
-console.log((document.getElementById("favicon")! as HTMLLinkElement) .href!)
+link.href = waltonLogo
 document.title = "Walton Development"
 </script>
