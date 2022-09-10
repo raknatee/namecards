@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+
+  frontend:
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./app:/home/app
+      - /home/app/node_modules
+      - ./.vscode-server/vscode-pyhouse-frontend:/root/.vscode-server
+      - ./docs/:/home/deploy
+
+    ports:
+      - 80:80
