@@ -138,13 +138,13 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import CardVue from '../../components/Card.vue';
-import iconUrl from "../../assets/walton/mini_logo.png"
+// import iconUrl from "../../assets/walton/mini_logo.png"
 
 document.title = "Walton Development"
 
 
-onMounted(() => {
-let link = document.getElementById("favicon") as HTMLLinkElement
-link.href = iconUrl
-})
+// onMounted(() => {
+// let link = document.getElementById("favicon") as HTMLLinkElement
+// link.href = iconUrl
+// })
 </script>
