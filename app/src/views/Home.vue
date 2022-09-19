@@ -6,7 +6,14 @@
         <img src="/src/assets/qr/walton.png" alt="">
       
       </router-link>
+      <router-link to="/codekids">
+        <img src="/src/assets/qr/qr-codekids.png" alt="">
       
+      </router-link>
+      <router-link to="/killswitch">
+        <img src="/src/assets/qr/qr-ks.png" alt="">
+      
+      </router-link>
     <!-- </template> -->
   </div>
 

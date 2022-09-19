@@ -11,6 +11,14 @@ const routes: Array<RouteRecordRaw> = [
     path: '/walton',
     component: () => import("../views/walton/Index.vue")
   },
+  {
+    path: '/codekids',
+    component: () => import("../views/codekids/Index.vue")
+  },
+  {
+    path: '/killswitch',
+    component: () => import("../views/killswitch/Index.vue")
+  },
 
 
 ]

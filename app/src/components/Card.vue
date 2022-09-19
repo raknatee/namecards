@@ -89,20 +89,20 @@ const flip = () => {
     button{
         @media (max-width: 600px){
             font-size: .5rem;
-            padding: 2rem;
+
         }
         position: absolute;
-        left:0;
-        bottom: 0;
-        padding:3rem;
-        border-radius: 50%;
+        left:50%;
+        bottom: -5vh;
+        padding: 1rem;
+        border-radius: 1rem;
         transform: translateX(-50%) translateY(50%);
         font-size: 1rem;
         background-color: red;
         color: #fff;
         border: none;
         opacity: 70%;
-        box-shadow: 0 .5rem 1rem .5rem rgba(0, 0, 0, 0.5);
+        box-shadow: 0 .25rem .5rem .25rem rgba(0, 0, 0, 0.5);
 
         
     }
