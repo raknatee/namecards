@@ -1,7 +1,8 @@
 <template>
   <div class="supercenter">
 
-    <!-- <template v-for="dataUrl in dataUrls" :key="dataUrl"> -->
+    
+
       <router-link to="/walton">
         <img src="/src/assets/qr/walton.png" alt="">
       
@@ -14,7 +15,10 @@
         <img src="/src/assets/qr/qr-ks.png" alt="">
       
       </router-link>
-    <!-- </template> -->
+   
+      <router-link to="/walton-namecard">walton-namecard</router-link>
+      <router-link to="/personal-namecard">personal-namecard</router-link>
+      <p></p>
   </div>
 
 </template>

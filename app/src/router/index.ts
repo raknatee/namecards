@@ -19,6 +19,14 @@ const routes: Array<RouteRecordRaw> = [
     path: '/killswitch',
     component: () => import("../views/killswitch/Index.vue")
   },
+  {
+    path: '/walton-namecard',
+    component: () => import("../views/WaltonNamecard.vue")
+  },
+  {
+    path: '/personal-namecard',
+    component: () => import("../views/PersonalNamecard.vue")
+  }
 
 
 ]
